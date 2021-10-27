@@ -1,0 +1,64 @@
+#contact {
+  background: grey;
+  height: 100vh;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+.social-menue{
+  display: flex;
+  list-style-type: none;
+  object-position: center;
+  text-align: center;
+}
+
+.social-menu i {
+  color: #ffffff;
+  width: 100px;
+  height: 35px;
+  border-radius: 100px;
+  font-size: 25px;
+  margin-right: 70px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+}
+
+.social-menu i:before {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-weight: 400;
+}
+
+.social-menu a {
+  text-decoration: none;
+}
+
+.fa-twitter {
+  background: #00aced;
+}
+
+.fa-facebook {
+  background:#3b5998;
+}
+
+.social-menu i:hover {
+  opacity: .7;
+  border-radius: 0;
+}
+.fa-facebook{
+  text-align: center;
+  object-position: center;
+}
+h2{
+  font-size: 60px;
+  text-align: center;
+}
+h3{
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+p{
+  font-size: 20px;
+  padding-top: 30px;
+}
